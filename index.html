@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Message</title>
+</head>
+<body>
+    <h1 id="message"></h1>
+    <script>
+        const messages = ["I love you fiance", "You are the best partner in the world", "Thank you for everything you do and everything you are", "Happy 5 years, everyday by your side is a celebration for me (in many many ways), you stood by my side when I wasn't deserving of your support. You have the sweetest soul and I love you for who you were, who you are and who you will become."];
+        document.getElementById("message").innerText = messages[Math.floor(Math.random() * messages.length)];
+    </script>
+</body>
+</html>
